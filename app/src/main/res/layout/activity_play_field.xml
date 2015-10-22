@@ -56,8 +56,8 @@
     <Button
         android:layout_width="95dp"
         android:layout_height="wrap_content"
-        android:text="Tackle"
-        android:id="@+id/tackle"
+        android:text="Attack"
+        android:id="@+id/attack"
         android:layout_above="@+id/block"
         android:layout_alignRight="@+id/block" />
 
@@ -68,17 +68,26 @@
         android:id="@+id/block"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="40dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Headbutt"
-        android:id="@+id/headbutt"
+        android:text="Sp. Attack"
+        android:id="@+id/specialAttack"
         android:layout_above="@+id/heal"
-        android:layout_alignLeft="@+id/heal"
+        android:layout_alignLeft="@+id/heal" />
 
-        />
+    <!--<Button
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="Special"
+        android:id="@+id/special"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/tackle"
+        android:layout_toLeftOf="@+id/headbutt"
+        android:layout_marginBottom="25dp"/>-->
 
     <Button
         android:layout_width="95dp"
@@ -87,25 +96,17 @@
         android:id="@+id/heal"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="60dp"
+        android:layout_marginRight="40dp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Battle Start! Pick your move"
+        android:text="Battle Start! Pick your move."
         android:id="@+id/textView"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="225dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <Button

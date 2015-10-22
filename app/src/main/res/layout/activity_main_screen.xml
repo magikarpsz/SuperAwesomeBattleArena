@@ -4,18 +4,21 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainScreen"
-    android:background="@drawable/pyramid_background">
+    android:background="@drawable/stadium">
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Super Awesome Battle Arena"
+        android:text="SUPER AWESOME BATTLE ARENA"
         android:id="@+id/textView2"
+        android:layout_marginBottom="84dp"
+        android:focusable="false"
         android:layout_above="@+id/start"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="86dp" />
+        android:textStyle="bold"
+        android:textColor="#0928c1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -24,6 +27,6 @@
         android:id="@+id/start"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:background="#fffff282" />
+        android:background="#ffffff" />
 
 </RelativeLayout>

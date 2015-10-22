@@ -12,7 +12,6 @@ import android.widget.Button;
 public class MainScreen extends ActionBarActivity {
 
     Button start;
-    PlayField playField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +22,9 @@ public class MainScreen extends ActionBarActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainScreen.this, PlayField.class);
+                Intent i = new Intent(MainScreen.this, CharacterPage.class);
                 startActivity(i);
+                finish();
             }
         });
     }
